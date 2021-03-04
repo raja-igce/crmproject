@@ -1,0 +1,132 @@
+
+.linkcolor{
+	color: #5B78E3 !important;
+}
+.add-new-data{
+		box-shadow: 3px 3px 3px 3px #b5b5b5 !important;
+}
+.boxshado{
+		box-shadow: 3px 3px 3px 3px #b5b5b5 !important;
+}
+
+.cardtoppad{
+		padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    border: 1px solid #ddd !important;
+}
+
+.fulltblrow{
+		white-space: pre;
+}
+.cardtitleeclips{
+	overflow: hidden;
+	height: 47px;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+.cardDetaileclips{
+	overflow: hidden;
+	height: 88px;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;
+}
+.iconfile{
+	float: left; width: 40px; margin-left: 10px;
+}
+
+.icontitle{
+	float: left; margin-top: 10px; margin-right: 15px;min-width: 100px;padding-right: 30px;
+}
+.iconsubtitle{
+	float: left;margin-right: 15px;
+}
+.iconsize{
+	font-size: 36px; padding: 15px 0px;
+}
+.GalleryBox:hover + .iconclose  {
+     display: inline-block;
+}
+
+.iconclose:hover{
+	 color: white;
+	 background: grey;
+}
+
+
+.iconclose{
+	display: inline-block;
+	right: 0px;
+	width: 20px;
+	height: 20px;
+	float: right;
+	padding: 0px;
+	border-radius: 43px;
+	text-align: center;
+	border: 1px solid gray;
+	font-size: 12px;
+	cursor: pointer;
+	margin-left: -40px;
+	color: grey;
+	background: white;
+}
+
+
+
+.btnpd{
+		padding: .9rem 1rem !important;
+}
+.checklistpd{
+	  padding: 5px 0px !important;
+}
+.Outputshow{
+		margin-top: 15px;
+}
+
+.GalleryBox {
+		float: left;
+		margin: 10px 5px;
+		overflow: hidden;
+		padding: 3px;
+/*	        width: 100px;
+	height: 100px;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 1em; */
+	float: left;
+	border-radius: 12px;
+	box-shadow: 0 0 4px 0 #888;
+}
+.GalleryBox .gclose {
+		background-image: url("../images/close.png");
+		display: block;
+		height: 30px;
+		position: absolute;
+		width: 30px;
+
+}
+
+
+
+.error{
+	color: red;
+}
+.form-group .error input, .form-group .error select, .form-group .error textarea {
+	border: 1px solid red !important;
+}
+.groupbtn{
+	padding:12px !important;
+}
+.grouplrborder0{
+    border-left: 0px;
+    border-right: 0px;
+}
+.grouplborder0{
+    border-left: 0px;
+}
+.customSelectlpd45 .select2-selection__rendered{
+	padding-left: 45px !important;
+}

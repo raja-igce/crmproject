@@ -1,0 +1,57 @@
+.selectimage {
+	border-radius: 124px;
+	margin: 0px 5px 0px 0px;
+	height: 26px;
+	width: 26px;
+}
+
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+	float: right;
+	margin-left: .5rem;
+	color: #d2d2d2 !important;
+}
+
+.select2-container--classic .select2-selection--multiple .select2-selection__choice,
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+	padding: 5px;
+	color: black;
+	border-color: #ffffff !important;
+	background-color: #dcdbe0 !important;
+	border-radius: 35px;
+}
+
+.select2-selection__choice__remove {
+	float: right;
+	margin-left: .5rem;
+	color: #d2d2d2 !important;
+	height: 20px;
+	font-size: 20px;
+	background: white;
+	width: 20px;
+	text-align: center;
+	border-radius: 34px;
+	line-height: 20px;
+	margin-top: 2px;
+	background-color: #f0efff;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #444;
+    /* line-height: 4px; */
+}
+
+
+.flw-userinfo .flw-userinfo__content {
+    overflow: hidden;
+}
+
+.flw-userinfo .flw-userinfo__content, .flw-icon-with-text .flw-icon-with-text__content {
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: column;
+}
+.text-overflow {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
